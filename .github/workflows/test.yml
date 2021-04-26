@@ -20,3 +20,8 @@ jobs:
 
       - name: Setup package
         run: pip install -e .
+
+      - name: Minimal test
+        run: |
+          python -m pybiab.scripts.bb_abc2sgu --help
+          python -m pybiab.scripts.rb_render --help
