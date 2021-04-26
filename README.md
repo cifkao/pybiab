@@ -2,6 +2,8 @@
 
 Some code to have fun with Band-in-a-Box and RealBand on Windows.
 
+![](https://github.com/cifkao/pybiab/blob/screenshots/screenshots.gif?raw=true)
+
 This code was used to generate the [Groove2Groove MIDI Dataset](https://doi.org/10.5281/zenodo.3957999). The general procedure used to generate the data is described in [our paper](https://doi.org/10.1109/TASLP.2020.3019642) [[pdf](https://hal.archives-ouvertes.fr/hal-02923548/document)]:
 ```bibtex
 @article{groove2groove,
