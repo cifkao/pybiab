@@ -13,10 +13,13 @@ from ..realband_controller import RealBandController
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('song_dir')
-    parser.add_argument('style_dir')
-    parser.add_argument('output_dir')
-    parser.add_argument('song_style_file')
+    parser.add_argument('song_dir', help='directory with BIAB song files')
+    parser.add_argument('style_dir', help='directory with BIAB style files')
+    parser.add_argument('output_dir', help='output directory')
+    parser.add_argument('song_style_file',
+                        help='TSV file containing on each line the path to a song file (relative '
+                             'to song_dir) and the path to a style file (relative to style_dir) '
+                             'and optionally the key to which the song should be transposed')
     parser.add_argument('--format', '-f', type=str,
                         default='MIDI File (.MID) (*.MID)')
     parser.add_argument('--suffix', type=str, default=None)
