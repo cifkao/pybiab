@@ -1,6 +1,6 @@
 # Band-in-a-Box/RealBand automation scripts
 
-Some code to have fun with Band-in-a-Box and RealBand on Windows.
+Some Python code to have fun with Band-in-a-Box and RealBand on Windows.
 
 ![](https://github.com/cifkao/pybiab/blob/screenshots/screenshots.gif?raw=true)
 
