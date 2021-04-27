@@ -12,7 +12,7 @@ from ..realband_controller import RealBandController
 
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('song_dir', help='directory with BIAB song files')
     parser.add_argument('style_dir', help='directory with BIAB style files')
     parser.add_argument('output_dir', help='output directory')

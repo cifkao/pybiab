@@ -11,7 +11,7 @@ from pywinauto.timings import TimeoutError
 from ..biab_controller import BandInABoxController
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('input_dir')
     parser.add_argument('output_dir')
     parser.add_argument('--fix-bar-33', action='store_true')
