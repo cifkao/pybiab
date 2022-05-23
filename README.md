@@ -18,3 +18,9 @@ This code was used to generate the [Groove2Groove MIDI Dataset](https://doi.org/
   url={https://doi.org/10.1109/TASLP.2020.3019642}
 }
 ```
+
+Scripts included:
+- [`bb_abc2sgu.py`](pybiab/scripts/abc2sgu.py) – convert ABC files to BIAB (\*.SGU) files
+- [`bb_change_substyle.py`](pybiab/scripts/bb_change_substyle.py) – change the substyle of BIAB files from A to B (or vice versa)
+- [`rb_render.py`](pybiab/scripts/rb_render.py) – render BIAB files as MIDI (or any other supported format) using RealBand
+- [`fix_rb_midi.py`](pybiab/scripts/fix_rb_midi.py) – fix a RealBand-generated MIDI file by adding missing program change events and skipping invalid events
