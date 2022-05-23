@@ -24,4 +24,6 @@ jobs:
       - name: Minimal test
         run: |
           python -m pybiab.scripts.bb_abc2sgu --help
+          python -m pybiab.scripts.bb_change_substyle --help
           python -m pybiab.scripts.rb_render --help
+          python -m pybiab.scripts.fix_rb_midi --help
