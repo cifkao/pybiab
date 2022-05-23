@@ -13,5 +13,6 @@ setuptools.setup(
         'pywinauto',
         'pywin32',
         'psutil',
+        'mido',
     ],
 )
